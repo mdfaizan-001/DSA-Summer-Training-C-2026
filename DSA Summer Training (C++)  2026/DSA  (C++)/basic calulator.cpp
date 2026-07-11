@@ -4,10 +4,9 @@ using namespace std;
 int main() {
     float num1, num2;
     char op;
-
+    
     cout << "Enter first number: ";
     cin >> num1;
-
     cout << "Enter operator (+, -, *, /): ";
     cin >> op;
 
@@ -30,6 +29,5 @@ int main() {
         default:
             cout << "Invalid operator";
     }
-
-    return 0;
+     return 0;
 }
