@@ -12,7 +12,6 @@ int main() {
         cin >> num;
         sum += num;
     }
-
     average = sum / n;
     cout << "Average: " << average;
     return 0;
