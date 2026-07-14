@@ -1,11 +1,10 @@
 #include <iostream>
 using namespace std;
-
 int main() {
+    
     int arr[5];
     bool isAscending = true;
     cout << "Enter 5 num:\n";
-
     for (int i = 0; i < 5; i++) {
         cin >> arr[i];
     }
