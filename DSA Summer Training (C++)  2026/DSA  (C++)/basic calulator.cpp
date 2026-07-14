@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main() {
     float num1, num2;
     char op;
@@ -9,7 +8,6 @@ int main() {
     cin >> num1;
     cout << "Enter operator (+, -, *, /): ";
     cin >> op;
-
     cout << "Enter second number: ";
     cin >> num2;
 
