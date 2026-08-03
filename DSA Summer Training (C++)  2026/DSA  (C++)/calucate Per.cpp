@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
+
 int main () {
-    
     float marksObtained, totalMarks, Percentage;
     cout << "Enter obtained marks: ";
     cin >> marksObtained;
@@ -9,6 +9,5 @@ int main () {
     cin >> totalMarks;
     Percentage = (marksObtained / totalMarks)*100;
     cout << "Percentage = " << Percentage << "%";
-
     return 0;
 }
