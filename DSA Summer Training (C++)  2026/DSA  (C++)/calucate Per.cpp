@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main () {
     float marksObtained, totalMarks, Percentage;
     cout << "Enter obtained marks: ";
