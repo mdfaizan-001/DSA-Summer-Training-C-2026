@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 int main() { 
     int arr[5];
     bool isAscending = true;
@@ -12,7 +13,8 @@ int main() {
             isAscending = false;
             break;
         }
-    } 
+    }
+    
     if (isAscending) {
         cout << "The array is in ascending order." << endl;
     } else {
