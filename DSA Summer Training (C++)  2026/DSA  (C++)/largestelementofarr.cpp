@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main() {
     int arr[5] = {12, 45, 7, 23, 89};
 
@@ -11,8 +10,6 @@ int main() {
             largest = arr[i];
         }
     }
-
     cout << "Largest element: " << largest;
-
     return 0;
 }
