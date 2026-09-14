@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 int main() {
     int arr[5], search, found =0;
     cout << "Enter 5 num:\n";
