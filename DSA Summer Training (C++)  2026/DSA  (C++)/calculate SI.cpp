@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-int main() {  
+int main() { 
+    
     float principal, rate, time, simpleInterest;
     cout << "Enter principal amount: ";
     cin >> principal;
@@ -11,4 +12,5 @@ int main() {
     simpleInterest = (principal * rate * time) / 100;
     cout << "Simple Interest = " << simpleInterest;
     return 0;
+    
 }
