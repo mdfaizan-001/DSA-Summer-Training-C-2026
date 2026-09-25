@@ -1,22 +1,14 @@
 #include <iostream>
-
 using namespace std;
-
-int main() {  
-    
+int main() {      
     float principal, rate, time, simpleInterest;
     cout << "Enter principal amount: ";
-    cin >> principal;
-    
+    cin >> principal;   
     cout << "Enter rate of interest: ";
-    cin >> rate; 
-    
+    cin >> rate;  
     cout << "Enter time period: ";
-    cin >> time; 
-    
+    cin >> time;   
     simpleInterest = (principal * rate * time) / 100;
-    cout << "Simple Interest = " << simpleInterest;
-    
-    return 0; 
-    
+    cout << "Simple Interest = " << simpleInterest; 
+    return 0;    
 }
