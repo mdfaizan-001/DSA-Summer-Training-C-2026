@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
-
-int main() {  
-    
+int main() {      
     float num1, num2;
     char op;    
     cout << "Enter first number: ";
@@ -11,7 +9,6 @@ int main() {
     cin >> op;
     cout << "Enter second number: ";
     cin >> num2; 
-    
     switch(op) { 
         case '+':
             cout << "Result: " << num1 + num2;
@@ -28,7 +25,5 @@ int main() {
         default:
             cout << "Invalid operator";
     } 
-    
      return 0; 
-    
 }
