@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
-
-int main() { 
-    
+int main() {   
     int num1, num2;
     cout << "Enter first number: ";
     cin >> num1;
@@ -15,5 +13,4 @@ int main() {
     else
         cout << "Both numbers are equal";
     return 0; 
-    
 }
